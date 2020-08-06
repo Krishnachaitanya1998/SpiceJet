@@ -14,6 +14,7 @@ public class HomePageTest extends Url_Page{
 		hp.One_Way_Search();
 		Close_Url();
 		System.out.println("This is to open URL");
+		System.out.println("This is to close URL");
 	}	
 	@Test
 	public void Test002() throws Exception {
@@ -22,6 +23,7 @@ public class HomePageTest extends Url_Page{
 		hp.verify_first_Select();
 		Close_Url();
 		System.out.println("This is to open URL");
+		System.out.println("This is to close URL");
 		
 	}
 	@Test
@@ -31,6 +33,7 @@ public class HomePageTest extends Url_Page{
 		hp.verify_default_select();
 		Close_Url();
 		System.out.println("This is to open URL");
+		System.out.println("This is to close URL");
 	}
 		
 		
